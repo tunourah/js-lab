@@ -9,10 +9,11 @@ console.log( `The area of the rectangle is ${haightoftranglar * widht}`);
 
 // q2
 
-let temperature = 40;
-let Celsius = (temperature - 32) * 5/9;
+let temperature = 40 ;
 let Fahrenheit = (temperature * 9/5) + 32;
-console.log(`The temperature ${temperature} °F is ${Celsius.toFixed(2)} degrees Celsius and ${temperature} °C is ${Fahrenheit} degrees Fahrenheit`);
+let Celsius = (Fahrenheit - 32) * 5/9;
+console.log(`The temperature ${Fahrenheit} °F is ${Celsius.toFixed(2)} degrees Celsius 
+The temperature ${Celsius} °C is ${Fahrenheit} degrees Fahrenheit`);
 
 
 // q3
