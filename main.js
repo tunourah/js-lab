@@ -22,16 +22,10 @@ let seconds = hours * 60 * 60;
 console.log(`The number of seconds in ${hours} hours is ${seconds} seconds`);
 
 // q4
-/*
- * REQUIREMENTS
- * 1. Your code should have two variables -  `thingOne` and `thingTwo`
- * 2. Your code should only have one `console.log` statement
- * 3. Your code should print out the values of `thingOne` and `thingTwo` using concatenation
- * 4. Your code should contain semicolons at the end of each line
- */
+ 
 
-let wordOne = "thingOne";
-let wordTwo = "thingTwo";
+let wordOne = "Noura";
+let wordTwo = "Altuwaim 🌟";
 let totalWords = wordOne +" "+ wordTwo;
 console.log(totalWords);
 
