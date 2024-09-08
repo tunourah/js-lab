@@ -52,3 +52,4 @@ let firstName =  " Julia";
 let  hobby = "play video games ";
 
 let  awesomeMessage = `Hi, my name is ${firstName}. I love ${interest}. In my spare time, I like to ${hobby}.`
+console.log(awesomeMessage);
